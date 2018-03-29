@@ -20,7 +20,17 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+>> show current working directory path: pwd
+>> creating a directory: mkdir
+>> deleting a directory: rm -r name_of_directory
+>> creating a file using `touch` command: touch file.txt
+>> deleting a file: rm -rf file.txt
+>> renaming a file: mv file1.txt file2.txt
+>> listing hidden files: ls -a
+>> copying a file from one directory to another: cp source destination
+>> accepts standard input and modifies it based on expression, before displaying it as output data: sed 's/word1/word2/' file.txt
+>> displays the value of a single enviornment path: env | grep PATH
+>> makes the variable to be available to all child sessions initiated from the session you are in. This is a way to make the variable persist across programs.: export USER='Cyrus Rustomji'
 
 ---
 
@@ -35,7 +45,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+>> `ls`: lists files in current working directory
+>> `ls -a`: lists all files in current working directory
+>> `ls -l`: lists all files in a long format in the current working directory
+>> `ls -lh`: lists all files in a long format and the current working directory in human readale format
+>> `ls -lah`: lists all files in a long format, all files inclduing hidden files, and the current working directory in human readable format
+>> `ls -t`: orders files and directories by the time they were modified
+>> `ls -Glp`: Displays the long format listing, but exclude the owner name, the long format, and the directories with /
 
 ---
 
@@ -43,7 +59,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+>> 'ls -b': Displays nonprinting characters in octal.
+>> 'ls -o': Displays the long format listing, but excludes group name.
+>> 'ls -r': Displays files in reverse order.
+>> 'ls -u': Displays files by the file access time.
+>> 'ls -1': Displays each entry on a line.
 
 ---
 
@@ -51,7 +71,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+>> It is used to build and execute command from standard inoput. It converts input from standard input into arguments to a command.
+>> touch file1.txt and echo file1.txt | xargs.txt are the same
+>> xargs reads the STDIN data and converts each line into space seperated arguments to the command.
  
 
