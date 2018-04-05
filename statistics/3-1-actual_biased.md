@@ -2,7 +2,7 @@
 
 >> The biased data was missing, so I had to create a function called 'biased' and create a graph and the mean off of that.
 
->> # Used the NUMKDHH function to construct the actual distribution for the number of children under 18 in the household.
+>> Used the NUMKDHH function to construct the actual distribution for the number of children under 18 in the household.
 >> pmf = thinkstats2.Pmf(resp.numkdhh, label='numkdhh')
 
 >> Createa a plot from the pmf
